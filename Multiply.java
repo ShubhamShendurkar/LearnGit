@@ -5,6 +5,7 @@ public class Multiply {
 
         System.out.println(a*b);
         System.out.println(a+b);
+        System.out.println(a*5/b);
     }
 }
 
