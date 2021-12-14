@@ -19,6 +19,10 @@ public class SolidRectangle {
         int cols= sc.nextInt();
         for(int i = 1;i<=rows;i++)
         {
+//            for(int k=rows-i;k>=1;k--)  for printing rhombus
+//            {
+//                System.out.print(" ");
+//            }
             for(int j = 1;j<=cols;j++)
             {
                 System.out.print("*");

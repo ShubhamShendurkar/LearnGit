@@ -6,10 +6,15 @@ public class Fibonacci {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter the number you want to print fibonacci series:");
         int number = in.nextInt();
-        int a =0,b=1;
+        int a =0,b=1,c;
+        System.out.println(a);
+        System.out.println(b);
         for(int i = 2;i<=number;i++)
         {
-            System.out.println("Fibonnaci series");
+            c = a+b;
+            a=b;
+            b=c;
+            System.out.println(c);
         }
 
     }
